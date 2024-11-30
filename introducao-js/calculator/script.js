@@ -35,8 +35,12 @@ window.onload = function(){
         })
     })
 
-    // document.getElementById("num1").addEventListener("click", function(e){
-    //     e.value = ""
-    // })
+    element = document.querySelectorAll(".elemento");
+    element.forEach(e => {
+        e.addEventListener("click", function(){
+            e.value = "";
+        })
+    })
+
 
 }
