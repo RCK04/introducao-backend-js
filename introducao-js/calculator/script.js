@@ -8,14 +8,6 @@ window.onload = function(){
         })
     })
 
-    // document.getElementById("num4").addEventListener("focusout", function(event){
-    //     event.preventDefault()
-    //     num1 = document.getElementById("num3").value;
-    //     num2 = document.getElementById("num4").value;
-
-    //     document.getElementById("result2").value = parseInt(num1) - parseInt(num2);
-    // })
-
     document.querySelectorAll("#num3, #num4").forEach(e => {
         e.addEventListener("focusout", function(){
             num1 = document.getElementById("num3").value;
