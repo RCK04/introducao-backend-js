@@ -35,12 +35,10 @@ window.onload = function(){
         })
     })
 
-    element = document.querySelectorAll(".elemento");
-    element.forEach(e => {
+    elements = document.querySelectorAll(".elemento");   
+    elements.forEach(e => {
         e.addEventListener("click", function(){
             e.value = "";
         })
     })
-
-
 }
