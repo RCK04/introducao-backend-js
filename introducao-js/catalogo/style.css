@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+/* .sMais{
+    transition: font-size 0.3s ease-in;
+}
+
+.sMais:hover{
+    font-size: 120%;
+} */
+
+#total{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#total img{
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 40vw;
+}
+
 body{
     background-color: rgb(15, 145, 251);
 }
@@ -24,7 +50,7 @@ h1{
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 30%;
+    width: 30%; 
     margin: 1%;
     background-color: azure;
     transition: 0.2s ease-in;
