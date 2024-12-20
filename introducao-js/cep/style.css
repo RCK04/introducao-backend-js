@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(15, 145, 251);
+    margin: 0%;
+}
+
+h1 {
+    color: rgb(8, 58, 149);
+    text-align: center;
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+label{
+    width: 100%;
+    line-height: 26px;
+}
+
+label input{
+    width: 50%;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.item{
+    width: 100%;
+    text-align: center;
+}
